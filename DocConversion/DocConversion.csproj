@@ -275,6 +275,7 @@
   <PropertyGroup>
     <PreBuildEvent>rmdir /S/Q "$(TargetDir)scripts\"
 rmdir /S/Q "$(TargetDir)node_modules\"
+del /Q "$(TargetDir)output*.pdf"
 xcopy "$(ProjectDir)scripts\*.js" "$(TargetDir)scripts\"
 xcopy "$(ProjectDir)node_modules" "$(TargetDir)node_modules" /E/H/C/I</PreBuildEvent>
   </PropertyGroup>
