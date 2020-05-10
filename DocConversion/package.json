@@ -1,0 +1,8 @@
+{
+    "version": "1.0.0",
+    "name": "doc-conversion",
+    "private": true,
+    "devDependencies": {
+        "docx-pdf": "0.0.1"
+    }
+}
